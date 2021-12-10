@@ -20,6 +20,7 @@
 		039DB584276096FD00E10B31 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DB582276095BF00E10B31 /* LandmarkRow.swift */; };
 		039DB5882760997D00E10B31 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DB5872760997D00E10B31 /* LandmarkList.swift */; };
 		039DB58A2761E25400E10B31 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DB5892761E25400E10B31 /* LandmarkDetail.swift */; };
+		03D7B7D82763D6F500655B1B /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7B7D72763D6F500655B1B /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		039DB582276095BF00E10B31 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		039DB5872760997D00E10B31 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		039DB5892761E25400E10B31 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		03D7B7D72763D6F500655B1B /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				039DB567275F446000E10B31 /* ContentView.swift */,
+				03D7B7D72763D6F500655B1B /* HexagonParameters.swift */,
 				03453516276347EA00E65216 /* Landmarks */,
 				03453517276347FB00E65216 /* Helps */,
 			);
@@ -209,6 +212,7 @@
 				039DB578276083C900E10B31 /* MapView.swift in Sources */,
 				039DB566275F446000E10B31 /* LandmarksApp.swift in Sources */,
 				03453515276346E600E65216 /* FavoriteButton.swift in Sources */,
+				03D7B7D82763D6F500655B1B /* HexagonParameters.swift in Sources */,
 				039DB5882760997D00E10B31 /* LandmarkList.swift in Sources */,
 				039DB58A2761E25400E10B31 /* LandmarkDetail.swift in Sources */,
 				039DB576275F4BE200E10B31 /* CircleImage.swift in Sources */,
