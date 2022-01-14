@@ -59,7 +59,7 @@ struct LandmarkDetail_Previews: PreviewProvider {
         return Group {
             LandmarkDetail(landmark: modelData.landmarks[0]).environmentObject(modelData).previewDevice("Apple Watch Series 5 - 44mm")
             
-            LandmarkDetail(landmark: modelData.landmarks[0]).environmentObject(modelData).previewDevice("Apple Watch Series 5 - 40mm")
+            LandmarkDetail(landmark: modelData.landmarks[1]).environmentObject(modelData).previewDevice("Apple Watch Series 5 - 40mm")
         }
         
     }
