@@ -30,7 +30,6 @@
 		03344810279133A5000E2DD3 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7B7E62764502F00655B1B /* Hike.swift */; };
 		03344811279133A5000E2DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039DB569275F446100E10B31 /* Assets.xcassets */; };
 		03344812279133A5000E2DD3 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DB565275F446000E10B31 /* LandmarksApp.swift */; };
-		03344813279133A5000E2DD3 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DB5872760997D00E10B31 /* LandmarkList.swift */; };
 		03344815279138F1000E2DD3 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03344814279138F1000E2DD3 /* LandmarkDetail.swift */; };
 		0334481F279168AE000E2DD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0334481E279168AE000E2DD3 /* ContentView.swift */; };
 		03344821279168AF000E2DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03344820279168AF000E2DD3 /* Assets.xcassets */; };
@@ -49,6 +48,7 @@
 		0334483427916A2D000E2DD3 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BEE34A2775A9740024CC83 /* Profile.swift */; };
 		0334483527916A2D000E2DD3 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03453514276346E600E65216 /* FavoriteButton.swift */; };
 		0334483727916C05000E2DD3 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0334483627916C05000E2DD3 /* LandmarkDetail.swift */; };
+		03344839279224F0000E2DD3 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03344838279224F0000E2DD3 /* LandmarkList.swift */; };
 		03453515276346E600E65216 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03453514276346E600E65216 /* FavoriteButton.swift */; };
 		037700E22786426700EB6D9E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037700E12786426700EB6D9E /* PageViewController.swift */; };
 		039DB566275F446000E10B31 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DB565275F446000E10B31 /* LandmarksApp.swift */; };
@@ -148,6 +148,7 @@
 		03344823279168AF000E2DD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03344825279168AF000E2DD3 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
 		0334483627916C05000E2DD3 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		03344838279224F0000E2DD3 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		03453514276346E600E65216 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		037700E12786426700EB6D9E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		039DB562275F446000E10B31 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +226,7 @@
 				033447F227912E9D000E2DD3 /* NotificationView.swift */,
 				033447F427912E9D000E2DD3 /* ComplicationController.swift */,
 				03344814279138F1000E2DD3 /* LandmarkDetail.swift */,
+				03344838279224F0000E2DD3 /* LandmarkList.swift */,
 				033447F627912E9E000E2DD3 /* Assets.xcassets */,
 				033447FB27912E9E000E2DD3 /* Info.plist */,
 				033447FC27912E9E000E2DD3 /* PushNotificationPayload.apns */,
@@ -587,7 +589,7 @@
 				0334480E279133A5000E2DD3 /* Profile.swift in Sources */,
 				033447F127912E9D000E2DD3 /* NotificationController.swift in Sources */,
 				033447EF27912E9D000E2DD3 /* ContentView.swift in Sources */,
-				03344813279133A5000E2DD3 /* LandmarkList.swift in Sources */,
+				03344839279224F0000E2DD3 /* LandmarkList.swift in Sources */,
 				03344810279133A5000E2DD3 /* Hike.swift in Sources */,
 				0334480C279133A5000E2DD3 /* Landmark.swift in Sources */,
 				03344815279138F1000E2DD3 /* LandmarkDetail.swift in Sources */,
