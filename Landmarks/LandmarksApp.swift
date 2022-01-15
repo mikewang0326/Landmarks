@@ -16,7 +16,7 @@ struct LandmarksApp: App {
             ContentView().environmentObject(modelData)
         }
         
-        #if os(watchOS)
+        #if os(macOS)
         .commands {
             LandmarkCommands()
         }
