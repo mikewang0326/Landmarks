@@ -2,8 +2,9 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Landmarks is an app for discovering and sharing the places you love (Apple Tutorial).
+Landmarks is an app for discovering and sharing the places you love.
 
+* [Apple Tutorial]
   
 ### Tech
 
@@ -42,3 +43,5 @@ MIT
 
 
 **Stay Hungry, Stay Foolish**
+
+[Apple Tutorial]: <https://developer.apple.com/tutorials/swiftui/>
